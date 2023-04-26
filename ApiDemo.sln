@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.5.33414.496
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiDemoChicote", "ApiDemoChicote\ApiDemoChicote.csproj", "{F8220EA9-7B02-4521-B6B3-BF844909AAEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiDemo", "ApiDemoChicote\ApiDemo.csproj", "{F8220EA9-7B02-4521-B6B3-BF844909AAEF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{1D036C5B-E92E-4179-9F10-DCEF7213D049}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreServicesApp", "CoreServicesApp\CoreServicesApp.csproj", "{63365289-32A0-4E9E-B4AC-7DFE9B7F45E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalServiceApp", "ExternalServiceApp\ExternalServiceApp.csproj", "{11F55AEE-A671-46D5-9741-2816ADA965A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExternalServiceApp", "ExternalServiceApp\ExternalServiceApp.csproj", "{11F55AEE-A671-46D5-9741-2816ADA965A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

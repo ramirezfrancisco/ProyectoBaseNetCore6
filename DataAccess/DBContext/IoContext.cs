@@ -4,19 +4,19 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.DBContext
 {
-    public partial class ChicoteIoContext : DbContext
+    public partial class IoContext : DbContext
     {
         private string _connectionString;
-        public ChicoteIoContext()
+        public IoContext()
         {
         }
 
-        public ChicoteIoContext(string ConectionString)
+        public IoContext(string ConectionString)
         {
             _connectionString = ConectionString;
         }
 
-        public ChicoteIoContext(DbContextOptions<ChicoteIoContext> options)
+        public IoContext(DbContextOptions<IoContext> options)
             : base(options)
         {
         }
